@@ -9,14 +9,18 @@ ul li {
    padding: 10px;
    margin-left: 30px;
 }
+h2 {
+    margin-bottom: 20px;
+}
 button {
    padding: 10px;
    margin-bottom: 5%;
 }
 .row {
     margin-top: 5%;
+    margin-bottom: 5%;
     padding: 10px;
-    padding-top: 40px;
+    padding-top: 35px;
     border: 3px dashed #f7ddbb;
     box-shadow: 2px 2px 5px  #cccccc;
     border-radius: 20px;
@@ -27,8 +31,9 @@ button {
     margin-top: 5%;
 }
 .new-contact {
-    text-align: center;
-    margin: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;*/
 }
 .new-contact p {
     font-family: 'Open Sans', sans-serif;
