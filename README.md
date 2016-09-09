@@ -20,7 +20,7 @@ _For any questions/comments, please contact me through GitHub._
 
 ## Technologies Used
 
-_This application uses HTML, Bootstrap, PHP, Silex, and CSS_
+_This application uses HTML, Bootstrap, PHP/Silex, and CSS_
 
 ### License
 
