@@ -11,3 +11,16 @@ _This address book displays a simple form, and takes user input to generate a co
 ## Setup/Installation
 
 *_Simply clone from GitHub onto your local drive_*
+
+## Support and contact
+
+_For any questions/comments, please contact me through GitHub._
+
+## Technologies Used
+
+_This application uses HTML, Bootstrap, PHP, Silex, and CSS_
+
+### License
+
+*MIT*
+Copyright (c) 2016 **_Aimen Khakwani_**
