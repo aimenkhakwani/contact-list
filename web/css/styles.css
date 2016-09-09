@@ -2,37 +2,44 @@ h1, h2 {
     text-align: center;
     font-family: 'Arima Madurai', cursive;
 }
+ul li {
+   font-family: 'Open Sans', sans-serif;
+   list-style-type: none;
+   font-size: 18px;
+   padding: 10px;
+   margin-left: 30px;
+}
+button {
+   padding: 10px;
+   margin-bottom: 5%;
+}
 .row {
     margin-top: 5%;
-    background-color: #fcf4e8;
     padding: 10px;
     padding-top: 40px;
+    border: 3px dashed #f7ddbb;
+    box-shadow: 2px 2px 5px  #cccccc;
     border-radius: 20px;
     min-height: 350px;
 }
 .col-sm-6 {
-    margin-bottom: 5%;
-}
-.bold {
-    font-size: 20px;
+    margin-bottom: 7%;
+    margin-top: 5%;
 }
 .new-contact {
     text-align: center;
     margin: 3%;
+}
+.new-contact p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 5px;
 }
 .delete-contact {
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
 }
-
- ul li {
-    font-family: 'Open Sans', sans-serif;
-    list-style-type: none;
-    font-size: 18px;
-    padding: 10px;
-    margin-left: 30px;
-}
-button {
-    padding: 10px;
+.bold {
+    font-size: 20px;
 }
