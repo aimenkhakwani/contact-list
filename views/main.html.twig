@@ -2,11 +2,14 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
         <title>Address Book</title>
     </head>
     <body>
         <div class="container">
-            <h1>Address Book</h1>
+            <h1><img src="img/address.png" alt="an address book">Address Book</h1>
             <div class="row">
                 <div class="col-sm-6">
                     <h2>Add a New Contact</h2>
@@ -20,7 +23,9 @@
                         <div class="form-group">
                             <input class="form-control" name="address" id="address" type="text" placeholder="Address">
                         </div>
-                        <button type="submit" class="btn btn-default">Add!</button>
+                        <div class='text-center'>
+                            <button type="submit" class="btn btn-default">Add!</button>
+                        </div>
                     </form>
                 </div>
                 <div class="col-sm-6">
@@ -28,11 +33,13 @@
                     <h2>Your Contacts</h2>
                     <ul>
                         {% for contact in contacts %}
-                        <li>{{ contact.getName }}, {{ contact.getNumber }}, {{ contact.getAddress }}</li>
+                        <li><span class="bold">{{ contact.getName }} </span>, #{{ contact.getNumber }}, {{ contact.getAddress }}</li>
                         {% endfor %}
                     </ul>
                     <form action='/deleteContacts' method='post'>
-                        <button class='btn btn-default' type='submit'>Clear List</button>
+                        <div class='text-center'>
+                            <button class='btn btn-default' type='submit'>Clear List</button>
+                        </div>
                     </form>
                     {% endif %}
                 </div>
