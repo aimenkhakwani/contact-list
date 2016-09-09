@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Address Book</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Address Book</h1>
+        <div class="row">
+            <div class="new-contact">
+                <h2>You added a new contact!</h2>
+                <p>Name: {{ contact.getName }}</p>
+                <p>Number: {{ contact.getNumber}}</p>
+                <p>Address: {{ contact.getAddress}}</p>
+                <form action='/' method='get'>
+                    <button class='btn btn-default' type='submit'>Back</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
