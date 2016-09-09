@@ -8,7 +8,7 @@
 
 _This address book displays a simple form, and takes user input to generate a contact list. Enter a name, number , and address to add a new contact to the list. Users can add an infinite amount of contacts as well as clear the list._
 
-<img src="img/address-book.png" alt="a pic of the webpage">
+<img src="web/img/address-book.png" alt="a pic of the webpage">
 
 ## Setup/Installation
 
